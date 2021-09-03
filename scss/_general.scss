@@ -19,9 +19,13 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'FuturaPT', sans-serif;
+	font-family: "FuturaPT", sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
+}
+main {
+	background-image: url(../images/main-bg.svg);
+	background-size: contain;
 }
 
 img {
@@ -40,7 +44,7 @@ ul a {
 
 .container {
 	width: 100%;
-	max-width: 1320px;
+	max-width: 1350px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
