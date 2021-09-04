@@ -1,0 +1,40 @@
+// contacts find
+.find {
+   padding-bottom: 56px;
+}
+
+.find__box {
+   width: 100%;
+   max-width:935px;
+   height: 330px;
+   margin-right: 0;
+   margin-left: 25%;
+   padding-left: 87px;
+   display: inline-block;
+   background-image: url(../../images/contacts_bg--lupa.webp);
+   background-repeat: no-repeat;
+   background-position-x: right;
+   content: '';
+
+   @media
+   only screen and (-webkit-min-device-pixel-ratio: 2),
+   only screen and (   min--moz-device-pixel-ratio: 2),
+   only screen and (     -o-min-device-pixel-ratio: 2/1),
+   only screen and (        min-device-pixel-ratio: 2),
+   only screen and (                min-resolution: 192dpi),
+   only screen and (                min-resolution: 2dppx) { 
+     
+      .find__box {
+         background-image: url("../../images/contacts_bg--lupa@2x.webp");
+     }
+   } 
+}
+
+.find__heading {
+   margin-top: 264px;
+   margin-bottom: 0;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 62px;
+   color: #333333;
+}
