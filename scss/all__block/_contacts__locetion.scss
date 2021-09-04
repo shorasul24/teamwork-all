@@ -1,0 +1,24 @@
+// contacts__locetion
+
+.contacts__locetion {
+   padding-bottom: 206px;
+}
+
+.contacts__locetion .container {
+   width: 100%;
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0;
+   display: flex;
+}
+
+.contacts__locetion--box {
+   width: 100%;
+   max-width: 847px;
+   position:relative;
+}
+
+.dog__locetion--top {
+   position: absolute;
+   top: -62.5%;
+}
