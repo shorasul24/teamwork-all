@@ -6,8 +6,8 @@ elAsk__question__btn.addEventListener('click', () => {
 });
 const elFaq__ask__question__box__btn = document.querySelector('.faq__ask__question__box__btn');
 
-elqFaq__ask__question__box__btn.addEventListener('click', () => {
-	elMain.classList.toggle('ask__question__btn--open');
+elFaq__ask__question__box__btn.addEventListener('click', () => {
+	elMain.classList.remove('ask__question--open');
 });
 const elArrow__btn__one = document.querySelector('.arrow__btn__one');
 

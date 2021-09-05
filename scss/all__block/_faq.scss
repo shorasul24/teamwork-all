@@ -141,6 +141,14 @@
    color: #fff;
    border: none;
    border-radius: 3px;
+   cursor: pointer;
+}
+.ask__question__btn:hover {
+   background-color: var(--btn-color);
+}
+.ask__question__btn:active {
+   background-color: var(--h-color);
+
 }
 .faq__info__item + .faq__info__item {
    margin-top: 18px;
@@ -211,8 +219,7 @@
 }
 .ask__question--open .faq__ask-question-box {
    display: flex;
-} bb,k kckmvfmdm cz  .faq__ask-question-box {
-   display: none;
+   align-items: baseline;
 }
 .btn--open--one .faq__info__item:nth-child(1) .faq__info__item__paragraph{
    display: block;
