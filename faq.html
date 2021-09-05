@@ -62,11 +62,46 @@
             </div>
          </div>
       </header>
+      
       <main class="main">
          <section class="faq">
             <div class="container">
-               <div class="ask-question">
-                  
+               <div class="faq__ask-question-box">
+                  <button class="faq__ask__question__box__btn" type="button">
+                     <img class="faq__ask-question-box__btn__img"
+                     src="./images/exit.svg"
+                     alt="exit button image"
+                     width="18" height="18">
+                  </button>
+                  <div class="faq__ask-question-box__authorization">
+                     <h3 class="faq__ask-question-box__authorization__heading">
+                        Авторизация:
+                     </h3>
+                     <a class="faq__ask-question-box__authorization__social-link" href="https:/google.com" target="blank" >
+                        <img class="faq__ask-question-box__authorization__google-link__img"
+                        src="./images/google.svg" 
+                        alt="google icon image" 
+                        width="20" height="20">
+                        Войти через Google
+                     </a>
+                     <a class="faq__ask-question-box__authorization__social-link" href="https:/facebook.com" target="blank" >
+                        <img class="faq__ask-question-box__authorization__google-link__img"
+                        src="./images/facebook.svg" 
+                        alt="facebook icon image" 
+                        width="20" height="20">
+                        Войти через Facebook
+                     </a>
+                  </div>
+                  <div class="faq__ask-question-box__send-info">
+                     <h3 class="faq__ask-question-box__heading">
+                        Задать вопрос
+                     </h3>
+                     <form class="faq__ask-question-box__form" action="https://echo.htmlacademy.ru" method="POST" autocomplete="off" spellcheck="false">
+                        <input class="faq__ask-question-box__form__user-name" type="text" name="user_name" placeholder="Ваше имя">
+                        <textarea class="faq__ask-question-box__form__user-massage" name="user_massage" cols="30" rows="10" placeholder="Опишите Ваш вопрос. Например: в каком возрасте можно прививать от бешенства?" ></textarea>
+                        <button class="faq__ask-question-box__form__massage-send" type="submit">Отправить </button>
+                     </form>
+                  </div>
                </div>
                <div class="faq__info">
                   <h2 class="visually-hidden">
@@ -80,7 +115,7 @@
                      записаться на прием к врачу или проконсультироваться вы можете по телефону, 
                      в любое удобное для вас время.
                   </p>
-                  <button class="ask-question-btn" type="button">
+                  <button class="ask__question__btn" type="button">
                      <img class="doc-btn-img"
                      src="./images/doc-btn.svg" 
                      alt="button image"
