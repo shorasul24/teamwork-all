@@ -1,0 +1,144 @@
+// contacts
+.contacts__hero {
+   padding-bottom: 117px;
+}
+
+.contacts__hero .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 0 0 40px;
+}
+
+.contacts__box {
+   width: 100%;
+   max-width: 655px;
+}
+
+.contacts_heading {
+   margin-top: 0;
+   margin-bottom: 27px;
+   font-weight: bold;
+   font-size: 70px;
+   line-height: 64px;   
+   color: #333333;
+}
+
+.contacts__text {
+   width: 100%;
+   max-width: 447px;
+   margin-top: 0;
+   margin-bottom: 117px;
+   font-size: 16px;
+   line-height: 20px;
+   color: #949494;
+}
+
+.contacts__list {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.contacts__item {
+   width: 100%;
+   max-width: 166px;
+   height: 172px;
+
+   & .contacts__item--text {
+      margin: 0;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px; 
+      color: #333333;
+   }
+   
+   &:nth-child(1)::before {
+      width: 73px;
+      height: 73px;
+      margin-bottom: 30px;
+      display: block;
+      background-image: url(../images/contacts_hero-location.webp);
+      content: '';
+   }
+
+   @media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+   &:nth-child(1)::before {
+      background-image: url("../../images/contacts_hero-location@2x.webp");
+  }
+} 
+}
+
+.contacts__item {
+
+   & .contacts__item--time {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;         
+      color: #333333;
+   }
+   
+
+   &:nth-child(2)::before {
+      width: 76px;
+      height: 71px;
+      margin-bottom: 26px;
+      display: block;
+      background-image: url(../images/contacts_hero-calendar.webp);
+      content: '';
+   }
+
+   @media
+   only screen and (-webkit-min-device-pixel-ratio: 2),
+   only screen and (   min--moz-device-pixel-ratio: 2),
+   only screen and (     -o-min-device-pixel-ratio: 2/1),
+   only screen and (        min-device-pixel-ratio: 2),
+   only screen and (                min-resolution: 192dpi),
+   only screen and (                min-resolution: 2dppx) { 
+     
+      &:nth-child(2)::before {
+         background-image: url("../../images/contacts_hero-calendar@2x.webp");
+     }
+   } 
+}
+
+.contacts__item {
+
+   & .contacts__item--link {
+      display: block;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;        
+      color: #333333
+   }
+   
+
+   &:nth-child(3)::before {
+      width: 46px;
+      height: 73px;
+      margin-bottom: 23px;
+      display: block;
+      background-image: url(../images/contacts_hero-phone.webp);
+      content: '';
+   }
+
+   @media
+   only screen and (-webkit-min-device-pixel-ratio: 2),
+   only screen and (   min--moz-device-pixel-ratio: 2),
+   only screen and (     -o-min-device-pixel-ratio: 2/1),
+   only screen and (        min-device-pixel-ratio: 2),
+   only screen and (                min-resolution: 192dpi),
+   only screen and (                min-resolution: 2dppx) { 
+     
+      &:nth-child(3)::before {
+         background-image: url("../../images/contacts_hero-phone@2x.webp");
+     }
+   } 
+}
