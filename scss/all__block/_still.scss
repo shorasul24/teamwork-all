@@ -1,0 +1,146 @@
+.services__open--still .container {
+   width: 100%;
+   max-width: 1440px;
+   height: 498px;
+   padding: 65px 0 65px 177px;
+   position: relative;
+   display: flex;
+   background-image: url(../../images/services_open_finish--bg.jpg);
+   background-repeat: no-repeat;
+   
+}
+
+.still__heading--text {
+   width: 100%;
+   max-width: 276px;
+   margin-right: 61px;
+}
+
+.still__heading {
+   margin-top: 0;
+   margin-bottom: 8px;
+   font-weight: bold;
+   font-size: 56px;
+   line-height: 62px;
+   color: #FFFFFF;
+}
+
+.still__text {
+   margin-top: 0;
+   margin-bottom: 0;
+   font-weight: 500;
+   font-size: 26px;
+   line-height: 30px;
+   color: #FFFFFF;
+}
+
+.still_form {
+   width: 100%;
+   max-width: 365px;
+}
+
+.still__name {
+   width: 100%;
+   max-width: 335px;
+   height: 50px;
+   margin-bottom: 14px;
+   padding-left: 22px;
+   border: 0 solid #FFBD54;
+   color: #949494;
+
+   &:focus {
+      background: #FFFFFF;
+      border: 0 solid #FFBD54;
+      border-radius: 5px;
+
+   }
+
+   &:hover {
+      background: #FFFFFF;
+      border: 0 solid #FFBD54;
+      box-sizing: border-box;
+      border-radius: 5px;
+
+   }
+}
+
+
+.still__email {
+   width: 100%;
+   max-width: 335px;
+   height: 50px;
+   margin-bottom: 14px;
+   padding-left: 22px;
+   border: 0 solid #FFBD54;
+   color: #949494;
+
+   &:focus {
+      background: #FFFFFF;
+      border: 0 solid #FFBD54;
+      border-radius: 5px;
+
+   }
+
+   &:hover {
+      background: #FFFFFF;
+      border: 0 solid #FFBD54;
+      box-sizing: border-box;
+      border-radius: 5px;
+   }
+}
+
+.still__massage {
+   width: 100%;
+   max-width: 335px;
+   height: 165px;
+   margin-bottom: 26px;
+   padding-left: 22px;
+   padding-top: 17px;
+   border: 0 solid #FFBD54;
+   color: #949494;
+
+   &:focus {
+      background: #FFFFFF;
+      border: 0 solid #FFBD54;
+      border-radius: 5px;
+
+   }
+
+   &:hover {
+      background: #FFFFFF;
+      border: 0 solid #FFBD54;
+      box-sizing: border-box;
+      border-radius: 5px;
+   }
+}
+
+.still__btn {
+   padding: 15px 50px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   color: #FFFFFF;
+   border: none;
+   border-radius: 3px;
+   background: #333333;
+
+   &:hover {
+      color: #FFBD54;
+      background: #FFBD54;
+      border-radius: 3px;
+   }
+
+   &:active {
+      color: #FFBD54;
+      background: #333333;
+      border-radius: 3px;
+      opacity: 0.6;
+   }
+}
+
+
+.still__bg--img {
+   position: absolute;
+   top: -52px;
+   right: 0;
+}
