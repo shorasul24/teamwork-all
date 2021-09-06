@@ -1,4 +1,14 @@
 const elMain = document.querySelector('.main');
+const elAsk__question__btn = document.querySelector('.ask__question__btn');
+
+elAsk__question__btn.addEventListener('click', () => {
+	elMain.classList.toggle('ask__question--open');
+});
+const elFaq__ask__question__box__btn = document.querySelector('.faq__ask__question__box__btn');
+
+elFaq__ask__question__box__btn.addEventListener('click', () => {
+	elMain.classList.remove('ask__question--open');
+});
 const elArrow__btn__one = document.querySelector('.arrow__btn__one');
 
 elArrow__btn__one.addEventListener('click', () => {
