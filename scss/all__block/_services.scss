@@ -1,0 +1,167 @@
+.services__heading {
+   margin-bottom: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 54px;
+ }
+ 
+ .doctors__list {
+   margin: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .doctors__item {
+   max-width: 193px;
+   width: 100%;
+   background-color: #ffffff;
+   margin-left: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 30px 30px 28px 32px;
+   border-radius: 5px;
+   border: 1px solid #f3f3f3;
+   cursor: pointer;
+ }
+ .doctors__item:hover {
+   opacity: 0.5;
+   transition: 0.5s ease;
+ }
+ .doctors__item:active {
+   opacity: 0.5;
+ }
+ .doctors__item__heading {
+   text-align: center;
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+ }
+ .doctors__item:nth-child(2):before {
+   display: inline-block;
+   margin: 0 auto;
+   width: 54px;
+   height: 77px;
+   content: "";
+   background-image: url("../images/doctor.svg");
+ }
+ 
+ .doctors__item:nth-child(3):before {
+   display: inline-block;
+   margin: 0 auto;
+   width: 61px;
+   height: 77px;
+   content: "";
+   background-image: url("../../images/nuther.svg");
+ }
+ 
+ .doctors__item:nth-child(4):before {
+   display: inline-block;
+   margin: 0 auto;
+   width: 61px;
+   height: 77px;
+   content: "";
+   background-image: url("../../images/dog.svg");
+ }
+ 
+ .doctors__item:nth-child(5):before {
+   display: inline-block;
+   margin: 0 auto;
+   width: 75px;
+   height: 75px;
+   content: "";
+   background-image: url("../../images/dog-search.svg");
+ }
+ 
+ .doctors__item:nth-child(6):before {
+   display: inline-block;
+   margin: 0 auto;
+   width: 75px;
+   height: 75px;
+   content: "";
+   background-image: url("../../images/microscop.svg");
+ }
+ 
+ .doctors__item:nth-child(7):before {
+   display: inline-block;
+   margin: 0 auto;
+   width: 75px;
+   height: 75px;
+   content: "";
+   background-image: url("../../images/pilus.svg");
+ }
+ 
+ .left-right {
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   padding: 12px 18px;
+ }
+ .left-right:hover {
+   background-color: #ffffff;
+ }
+ .left-right:active {
+   background-color: #f2f2f2;
+ }
+ 
+ .check {
+   display: flex;
+   align-items: center;
+ }
+ .check__info {
+   margin-left: 67px;
+ }
+ .check__info__heading {
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 20px;
+ 
+   margin: 0;
+   margin-bottom: 18px;
+ }
+ .check__info__desc {
+   max-width: 492px;
+   width: 100%;
+   color: #949494;
+ }
+ .chek__info__link {
+   font-family: "FuturaPT";
+   margin-right: 21px;
+   padding: 14px 35px 15px 36px;
+   background-color: #ffbd54;
+   color: white;
+   border-radius: 3px;
+ }
+ .chek__info__link:hover {
+   transition: 0.7s ease;
+   background-color: #333333;
+   color: #ffbd54;
+ }
+ .chek__info__link:active {
+   opacity: 0.7;
+ }
+ 
+ .chek__info__link__2 {
+   border-radius: 3px;
+   font-family: "FuturaPT";
+   padding: 14px 37px;
+   background-color: #333333;
+   color: #ffffff;
+ }
+ .chek__info__link__2:hover {
+   background-color: #ffbd54;
+   color: #333333;
+   transition: 0.7s ease;
+ }
+ .chek__info__link__2:active {
+   opacity: 0.7;
+ }
+ 
