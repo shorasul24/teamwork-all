@@ -1,0 +1,65 @@
+.follow {
+   margin-top: 200px;
+   background-image: url("../../images/follow-bg.png");
+   background-size: 1444px 308px;
+   background-position: center;
+   padding-top: 90px;
+   padding-left: 287px;
+   padding-bottom: 88px;
+ }
+ .follow__heading {
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 20px;
+   color: #ffffff;
+   /* or 42% */
+ }
+ 
+ .typeemail {
+   max-width: 355px;
+   width: 100%;
+   border: 3px solid #eee;
+   border-radius: 5px;
+   padding-top: 18px;
+   padding-left: 22px;
+   padding-bottom: 12px;
+   outline: none;
+   transition: border-color 0.3s;
+ }
+ .typeemail:focus,
+ .typeemail:active {
+   border-color: #ffbd54;
+ }
+ .typeemail:invalid {
+   border-color: red;
+ }
+ // .typeemail:invalid {
+ 
+ // }
+ 
+ .follow__button {
+   cursor: pointer;
+   padding: 15px 51px 14px 53px;
+   background-color: #333333;
+   color: #ffffff;
+   border: none;
+   margin-left: 21px;
+ }
+ 
+ .follow__button:hover {
+   background-color: #ffbd54;
+   color: #ffffff;
+ }
+ 
+ .follow {
+   position: relative;
+ }
+ 
+ .follow__img--dog {
+   position: absolute;
+   right: 0;
+   bottom: -65px;
+ }
+ 

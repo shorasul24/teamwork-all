@@ -19,10 +19,21 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "FuturaPT", sans-serif;
+	font-family: "FuturaPT";
 	font-size: 16px;
 	line-height: 1.5;
-}
+	background-image: url("../images/bg.png");
+	@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	  only screen and (min--moz-device-pixel-ratio: 2),
+	  only screen and (-o-min-device-pixel-ratio: 2/1),
+	  only screen and (min-device-pixel-ratio: 2),
+	  only screen and (min-resolution: 192dpi),
+	  only screen and (min-resolution: 2dppx) {
+	  src: url("../images/bg@2x.png");
+	}
+	background-color: #e5e5e5;
+ }
+ 
 main {
 	background-image: url(../images/main-bg.svg);
 	background-size: contain;

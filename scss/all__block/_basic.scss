@@ -1,0 +1,146 @@
+.basic {
+   padding-bottom: 174px;
+}
+
+.basic .container {
+   width: 100%;
+   max-width: 1300px;
+   padding: 0px 20px 0px 180px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.basic__left {
+   width: 100%;
+   max-width: 640px;
+}
+
+.basic__nav--link {
+   font-size: 14px;
+   line-height: 18px;
+   color: #949494;
+   margin-right: 18px;
+   text-decoration: none;
+
+   &:hover {
+      color: #000;
+   }
+}
+
+.basic__heading {
+   margin-top: 0;
+   margin-bottom: 28px;
+   font-weight: bold;
+   font-size: 70px;
+   line-height: 64px;
+   color: #333333;
+
+   & .basic__heading--yellow {
+      color: #FFBD54;
+   }
+}
+
+
+.basic__text {
+   width: 100%;
+   max-width: 640px;
+   margin-top: 0;
+   margin-bottom: 22px;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: justify;
+   color: #949494;
+}
+
+.basic__text-b {
+   margin-bottom: 64px;
+}
+
+.basic__btn {
+   width: 180px;
+   margin-right: 21px;
+   padding: 14px 0px 15px 0px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;   
+   background: #FFBD54;
+   border: none;
+   border-radius: 3px;
+   color: #FFFFFF;
+
+   &::before {
+      width: 100%;
+      max-width: 21px;
+      height: 21px;
+      margin-right: 6.5px;
+      display: inline-block;
+      background-image: url(../../images/money.png);
+      content: '';
+   }
+}
+
+.basic__btn--black {
+   width: 241px;
+   padding: 14px 0px 15px 0px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px; 
+   background: #333333;
+   border: none;
+   border-radius: 3px;
+   color: white;
+
+   &::before {
+      width: 100%;
+      max-width: 21px;
+      height: 21px;
+      margin-right: 6.5px;
+      display: inline-block;
+      background-image: url(../../images/document.png);
+      content: '';
+   }
+}
+
+.basic__item {
+   width: 100%;
+   max-width: 305px;
+   border: 1px solid #E4E4E2;
+   box-sizing: border-box;
+   border-radius: 5px;
+}
+
+.basic__item--b {
+   margin-bottom: 11px;
+}
+
+.basic__list--box {
+   padding: 0 30px 37px 30px;
+}
+
+.basic__list__img {
+   margin-bottom: 19px;
+}
+
+.basic__list--time {
+   margin-bottom: 3px;
+   display: block;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #949494;
+   text-align: end;
+}
+
+.basic__list--heading {
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 25px;
+   color: #000000;
+}
+
+.basic__list--text {
+   margin-bottom: 28px;
+   font-size: 16px;
+   line-height: 20px;
+   color: #949494;
+}
