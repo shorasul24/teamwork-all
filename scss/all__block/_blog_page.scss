@@ -1,0 +1,145 @@
+.blog_hero .container {
+   display: flex;
+   justify-content: space-around;
+ }
+ 
+ .blog__hero__info {
+   max-width: 565px;
+   width: 100%;
+   margin-top: auto;
+   margin-bottom: auto;
+ }
+ .blog__hero__heading {
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 70px;
+   line-height: 64px;
+ 
+   color: #333333;
+ }
+ .blog__hero__des {
+   max-width: 447px;
+   width: 100%;
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20px;
+ 
+   color: #949494;
+ }
+ 
+ // get__a__dog__section
+ .get__a__dog {
+   margin-top: 41px;
+   margin-bottom: 41px;
+ }
+ .get__a__dog .container {
+   display: flex;
+ }
+ .get__a__dog__infos {
+   background-color: #ffffff;
+   padding: 68px 81px 68px 110px;
+ }
+ 
+ .get__a__dog__info__nav {
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .data-time {
+   color: #949494;
+ }
+ .get__a__dog__heading {
+   max-width: 325px;
+   width: 100%;
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 38px;
+ 
+   color: #333333;
+ }
+ .get__a__dog__desc {
+   margin-bottom: 51px;
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20px;
+ 
+   /* or 125% */
+ 
+   color: #949494;
+ }
+ 
+ .get__a__dog__btn {
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+ 
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+ 
+   /* identical to box height */
+ 
+   color: #333333;
+ }
+ 
+ .section__bottom__list {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .section__bottom__item {
+   margin-left: 5px;
+   max-width: 305px;
+   width: 100%;
+   background-color: #ffffff;
+   margin-bottom: 50px;
+   border-radius: 5px;
+ }
+ .section__bottom__item__info {
+   padding: 41px 22px 35px 31px;
+ }
+ .section__bottom__item__heading {
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 25px;
+ 
+   /* or 114% */
+ 
+   color: #000000;
+ }
+ .section__bottom__item__des {
+   font-family: "FuturaPT";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20px;
+ 
+   /* or 125% */
+ 
+   color: #817e7e;
+ }
+ .button__blog__page {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .blog__btn {
+   padding: 16px 40px;
+   background-color: #333333;
+   border: none;
+   color: #ffffff;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
